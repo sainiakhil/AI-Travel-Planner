@@ -12,9 +12,9 @@ from langchain_core.output_parsers import StrOutputParser
 
 # --- LLM and Tools ---
 # Initialize the LLM with Gemini 2.0 Flash model
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", google_api_key="AIzaSyC1sSrDhxP395Ece502bpVP8eDOtPvTkro", temperature=0.2, convert_system_message_to_human=True )
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", google_api_key=st.secrets["google_token"], temperature=0.2, convert_system_message_to_human=True )
 
-search_tool = TavilySearchResults(max_results=4, tavily_api_key="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")
+search_tool = TavilySearchResults(max_results=4, tavily_api_key=st.secrets["travily_token"])
 
 # --- Prompt Templates ---
 

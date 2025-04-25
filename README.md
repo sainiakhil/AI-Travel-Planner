@@ -40,7 +40,7 @@ NomadAI is an interactive travel planning assistant built using Streamlit and La
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url> # Replace with your actual repo URL
+    git clone <https://github.com/sainiakhil/AI-Travel-Planner> # Replace with your actual repo URL
     cd <repository-directory-name>
     ```
 
@@ -94,7 +94,7 @@ NomadAI is an interactive travel planning assistant built using Streamlit and La
 2.  **Start Streamlit:**
     Run the following command in your terminal (make sure your virtual environment is activated):
     ```bash
-    streamlit run app.py
+    streamlit run Agentic AI Travel Planner.py
     ```
 
 3.  **Access the App:** Streamlit will typically open the application automatically in your default web browser. If not, it will display a local URL (usually `http://localhost:8501`) that you can navigate to.
